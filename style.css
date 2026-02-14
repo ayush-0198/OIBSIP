@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #0f172a;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #38bdf8;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    background-color: #0f172a;
+    color: white;
+    cursor: pointer;
+}
+
+/* Features */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.box {
+    background-color: #e2e8f0;
+    padding: 30px;
+    width: 150px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
